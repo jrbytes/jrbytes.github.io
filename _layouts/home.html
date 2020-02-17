@@ -47,9 +47,14 @@
         {% unless posts_total == 0 %}
           {% include thoughts.html %}
         {% endunless %}
+
       </div>
     </div>
   </div>
-{% endif %}
+  {% endif %}
+
+  <div class="container-lg py-4 p-responsive text-center" style='padding-top: 0px;'>  
+    {% include footer-msg.html %}
+  </div>
 
 {% include footer.html %}
